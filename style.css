@@ -1,0 +1,42 @@
+#tabs {
+  list-style: none;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+p {
+  margin: 20px;
+}
+
+.content {
+  width: 600px;
+  padding: 10px;
+  border: solid 1px rgb(96, 214, 231);
+  left: 0;
+  top: 0;
+  height: 28px;
+  overflow: hidden;
+  transition: 1s;
+  color: rgb(107, 107, 107);
+}
+
+.show {
+  height: 130px;
+}
+
+#tabs a {
+  background: rgb(29, 192, 207);
+  color: white;
+  text-decoration: none;
+}
+
+#tabs a:focus {
+  background: rgb(33, 216, 232);
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid rgb(26, 172, 186);
+}
